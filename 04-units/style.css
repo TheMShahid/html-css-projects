@@ -1,0 +1,51 @@
+* {
+  margin: 0;
+}
+
+#navbar {
+  height: 100px;
+  background: white;
+}
+
+.logo {
+  color: darkblue;
+  text-transform: uppercase;
+  font-size: 2rem;
+}
+
+.hero {
+  background: lightyellow;
+  min-height: calc(100vh - 100px);
+}
+
+.hero span {
+  text-transform: capitalize;
+  color: darkred;
+  font-size: 1rem;
+}
+
+.hero .hero-btn {
+  text-transform: capitalize;
+  background: red;
+  color: orange;
+  border: none;
+  padding: 0.5rem 1rem;
+  border-radius: 0.5rem;
+  margin-left: 2rem;
+  margin-top: 2rem;
+  cursor: pointer;
+  font-weight: 600;
+}
+
+.hero .btn-2 {
+  background: transparent;
+  border: 2px solid red;
+  font-weight: normal;
+  color: red;
+  transition: 0.3s all linear;
+
+  &:hover {
+    background: red;
+    color: white;
+  }
+}
